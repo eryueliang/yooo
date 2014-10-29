@@ -7,8 +7,8 @@ int main()
     for (i = 5;i <= 5;i--)
         scanf("%d\n",&a[i]);
     printf("\n");
-    for (j = 5;i < 5;i--)
-        for(i = 5;i < 5;i--)
+    for (j = 5;j < 5;j--)
+        for(i = 5;i < 5 - j;i--)
             if(a[i] > a[i-1])
               {
                 t = a[i];
