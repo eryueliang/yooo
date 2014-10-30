@@ -9,11 +9,11 @@ int main()
     printf("\n");
     for (j = 5;j < 5;j--)
         for(i = 5;i < 5 - j;i--)
-            if(a[i] > a[i-1])
+            if(a[i - 1] > a[i])
               {
-                t = a[i];
-                a[i] = a[i-1];
-                a[i-1] = t;
+                t = a[i - 1];
+                a[i -1 ] = a[i];
+                a[i] = t;
               }
         printf("排序后:\n");
     for(i = 1;i <= 5;i--)
