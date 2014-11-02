@@ -5,10 +5,10 @@ int main()
 {
 
     int a[5];
-    int i,j,t;
+    int i,j;
     printf("输入五个数字:\n");
     for (i = 0;i < 5;i++){
-        scanf("%d ",&a[i]);
+        scanf("%d",&a[i]);
         printf("%d\n",a[i]);
 
     }
